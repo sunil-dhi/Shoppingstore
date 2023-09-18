@@ -1,5 +1,7 @@
 import { SendOutlined } from "@mui/icons-material"
 import styled from "styled-components"
+import {mobile} from "../responisve"
+
 const Container=styled.div`
     display: flex;
     height: 60vh;
@@ -16,6 +18,8 @@ margin: auto;
 const Desc=styled.div`
     font-size: 35px;
     margin-bottom: 20px;
+    ${mobile({ textAlign: "center" })}
+
 `
 const InputContainer=styled.div`
 display: flex;
@@ -25,6 +29,8 @@ border-radius: 10%;
 height: 40px;
 width: 50%;
 margin-bottom: 10px;
+${mobile({ width: "80%" })}
+
 `
 const Input=styled.input`
     border: none;

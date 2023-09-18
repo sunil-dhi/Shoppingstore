@@ -9,11 +9,12 @@ import React from 'react'
 // import ProductList from './ProductList'
 // import Product from './Product'
 // import Login from './Login'
-import Register from './Register'
+// import Register from './Register'
+import Cart from './Cart'
 const Home = () => {
   return (
     <>
-     <Register />
+     <Cart />
     </>
   )
 }

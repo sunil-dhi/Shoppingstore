@@ -6,11 +6,14 @@ import React from 'react'
 // import Products from '../components/Products'
 // import NewsLetter from '../components/NewsLetter'
 // import Footer from '../components/Footer'
-import ProductList from './ProductList'
+// import ProductList from './ProductList'
+// import Product from './Product'
+// import Login from './Login'
+import Register from './Register'
 const Home = () => {
   return (
     <>
-     <ProductList />
+     <Register />
     </>
   )
 }
